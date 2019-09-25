@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/neuromania-react/precache-manifest.a4f03076b6c0c39fb4a7fce4e09d24e3.js"
+  "/neuromania-react/precache-manifest.62486eeedfed9e0a1b3542fd8ab5a8af.js"
 );
 
 workbox.clientsClaim();
