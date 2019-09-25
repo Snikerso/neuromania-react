@@ -180,7 +180,8 @@ align-content: center;
 
 .registration{
 display: grid;
-grid-template-columns: 1fr
+grid-template-columns: 10%;
+margin: 10%;
 }
 
 
@@ -190,8 +191,6 @@ grid-template-columns: 1fr
     position: relative;
     font-family: Arial;
   }
-
-
   .registration-select select {
     background-color: #0563af;
     color: white;

@@ -19,18 +19,17 @@ const Harmonogram = () => {
         { id: uuid(), text: "KEY SPEAKERS DISCUSSION", data: "5:15 PM", place: "Auditorium", day: "wednesday" },
         { id: uuid(), text: "INTEGRATION PARTY", data: "7:00 PM", place: "Auditorium", day: "wednesday" },
 
-        { id: uuid(), text: "REGISTRATION+COFFEE", data: "8:30 AM", place: "EntranceHall", day: "thursday" },
-        { id: uuid(), text: "Opening Ceremony", data: "9:00 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "KeyLecture I: Crawford WinLove 'Imagination: The theatre of your mind'", data: "9:10 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "COFFEE BREAK", data: "10:30 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "STUDENT SESSION", data: "10:45 AM", place: "Auditorium", day: "thursday" },
+        { id: uuid(), text: "COFFEE", data: "9:00 AM", place: "MainHall", day: "thursday" },
+        { id: uuid(), text: "KEY LECTURE IV: Peter Garderfors 'Conceptual spaces as a model of semantics", data: "9:10 AM", place: "Auditorium", day: "thursday" },
+        { id: uuid(), text: "COFFE BREAK", data: "10:30 AM", place: "MainHall", day: "thursday" },
+
+        { id: uuid(), text: "STUDENT SESSION", data: "10:45 AM", place: "Room I & Room II", day: "thursday" },
         { id: uuid(), text: "COFFEE BREAK", data: "12:15 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "KEY LECTURE II: Roberto Bottini 'The spatial organization of knowledge beyond hippocampal cognitive maps'", data: "9:00 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "DINNER", data: "1:45 PM", place: "Main Hall", day: "thursday" },
-        { id: uuid(), text: "KEY LECTURE III: Jacon Bellmund 'Mapping space and time for memory (and beynd?)'", data: "9:00 AM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "POSTER SESSION", data: "4:15 PM", place: "Main Hall", day: "thursday" },
-        { id: uuid(), text: "KEY SPEAKERS DISCUSSION", data: "5:15 PM", place: "Auditorium", day: "thursday" },
-        { id: uuid(), text: "INTEGRATION PARTY", data: "7:00 PM", place: "Auditorium", day: "thursday" },
+        { id: uuid(), text: "STUDENT SESSION", data: "12:30 AM", place: "Room I & Room II", day: "thursday" },
+        { id: uuid(), text: "DINNER", data: "1:30 PM", place: "Main Hall", day: "thursday" },
+        { id: uuid(), text: "KEY LECTURE V: Rob van der Lubbe'Attentional Workspace Account'", data: "3:15 PM", place: "Auditorium", day: "thursday" },
+        { id: uuid(), text: "CLOSING REMARKS", data: "4:15 PM", place: "Main Hall", day: "thursday" },
+
     ]
     const initialStorageItem = localStorage.getItem("harmo")
         ? JSON.parse(localStorage.getItem("harmo")) : [];

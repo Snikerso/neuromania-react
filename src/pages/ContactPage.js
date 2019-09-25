@@ -9,7 +9,7 @@ const ContactPage = () => {
                     <h2 style={{marginBottom:"20px"}}>Contact </h2> 
                     <p>
                     If you have any questions contact us:  <b>neuromaniatorun@gmail.com</b> 
-                    You can also find the event on    <a style={{color:"#00a1af", textDecoration:"none"}} href="https://www.facebook.com/events/1175404159286719/" target="_blank" >
+                    <br/><br/>You can also find the event on    <a style={{color:"#00a1af", textDecoration:"none"}} href="https://www.facebook.com/events/1175404159286719/" target="_blank" >
                          Facebook</a> and <a  style={{color:"#00a1af", textDecoration:"none"}} href="https://twitter.com/NeuromaniaC" target="_blank" >
                         Twitter</a>  !
                     </p>
