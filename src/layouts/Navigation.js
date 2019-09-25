@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import "../styles/Navigation.css"
 
 const list = [
-    { name: "home", path: "/neuromania-react", exact: true },
+    { name: "home", path: "/", exact: true },
     { name: "guests", path: "/guests" },
     { name: "harmonogram", path: "/harmonogram" },
     { name: "registration", path: "/registration" },
